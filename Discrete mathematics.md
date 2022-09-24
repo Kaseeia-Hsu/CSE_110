@@ -6,7 +6,7 @@
 
 ### Definition 5.1
 
-Cartesian product, or cross product, is that sets A and B denoted by A X B.
+Cartesian product, or cross product, is that sets A and B denoted by A X B.	
 
 - $A \times B = {(a,b) | a \in A, b \in B}$
 
@@ -57,15 +57,7 @@ The relation $R$ on $N$ can also be given recursively by:
 
 ### Exercise 5.1
 
-1.
-
-3.
-
-5.
-
-7.
-
-9.
+1, 3, 5, 7, 9 (Finished)
 
 
 
@@ -111,13 +103,31 @@ If $f: A \rarr B$  and $A_1 \subseteq A$ , then $f(A_1) = {b \in B \mid b=f(a)}$
 
 And we say that $f(A_1)$ is the image __under__ $f$.
 
+
+
 ### Example 5.15
+
+For $A={1, 2, 3, 4, 5}, B={w, x, y, z}$, let $f A \rarr B$ be given by $f= {(1,w), (2,x), (3,x), (4,y), (5,y)}$.
+
+And then $ A_1={1}, A_2={1, 2}, A_3={1, 2, 3}, A_4={2, 3}$.
+
+We could know that: $f(A_1)=f(1)=w$
+
+$f(A_2)={{f(a) \mid a= 1 or 2}}=w, x$
+
+$f(A_3)=f(a) \mid a = 1, 2, or 3 = w, x$
+
+$f(A_4)=x$
 
 
 
 ### Example 5.16
 
+(a) Set $g: R \rarr R$ , then $g(R)$ will be __the range__ of $g =[0, \infty)$
 
+(b) Let $g: Z \rarr Z$, hen $g(Z)$ will be __the image__ of $h ={0, 1, 4, 9, 16...}$
+
+ 
 
 ### Theorem 5.2
 
@@ -133,27 +143,37 @@ Let $f: A \rarr B$. with A~1~, A~2~ $\subseteq$ A
 
 ### Definition 5.7
 
+If $f: A \rarr B$ and $A_1 \subseteq A$, while $B$ is a set where $A$ comes from at the same time, we call that $f \mid A_1: A_1 \rarr B$ is __the restriction__ of $f$ to $A_1$. Stull, it's the same as original function $A$, but not defined by $A$ any longer. Instead of it, it's defined by a smaller domain $A_1$.
+
 
 
 ### Definition 5.8
 
+Let $A_1 \subseteq A$, and $f: A_1 \rarr B$. If there's a $g: A \rarr B$ and $g(a) = f(a)$ for all $a \in A_1$, we call that $g$ is an extension of $f$ to A.
 
+ 
 
 ### Example 5.17
+
+For $A=1, 2, 3, 4, 5$ let $f: A \rarr R$ be defined by $f = {(1,10), (2,13), (3,16), (4,19), (5, 21)}$
+
+Let $g: Q \rarr R \mid g(q)= 3q+7$ and $h: R \rarr R \mid h(r)=3r+7$.
+
+
+
+And we could say that:
+
+$g$ is an extension of $f$ from $A$ to $Q$;
+
+$f$ is a restriction of $g$ from $Q$ to $A$;
+
+#### $h$ is a extension of both $f$ and $g$.
 
 
 
 ### Exercise 5.2
 
-1.
-
-3.
-
-5.
-
-7.
-
-9.
+1, 3, 5, 7, 9 (Finished)
 
 
 
