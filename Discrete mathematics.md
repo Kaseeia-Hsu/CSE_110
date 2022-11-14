@@ -573,3 +573,32 @@ Let $x_1,x_2 \in \Sigma^{*}$, $(x_1x_2)^R={x_2}^R{x_1}^R$.
 ## 6.2 Finite State Machine: A First Encounter
 
 __The notes of this chapter are all in paper form due to the needed of visualization.__
+
+
+
+## 7.4 Equivalence Relations and Partitions
+
+
+
+### Definition 7.21
+
+Given set A and index set _I_, we call $A_{i, i\in I}$ a partition of A if,
+
+(a) $A= \bigcup \limits_{i\in I}$
+
+(b)$A_i \cap A_j = \empty$ for all $i, j \in I$ and $i \not= j$.
+
+
+
+## Definition 7.22
+
+Let $R$ be an equivalence relation on a set $A$. For each $x \in A$, the equivalence class of $x$ is denoted $[x]$, defined by $[x]=[y\in A | y Rx]$ . E.g.
+$$
+[0]=[...-8, -4, 0, 4, 8,...]=[4k|k \in Z]
+$$
+
+
+
+
+
+
